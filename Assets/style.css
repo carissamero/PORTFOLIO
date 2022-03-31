@@ -3,27 +3,44 @@
     padding: 0
 }
 body {
-    color: black;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: beige;
+    background-color: lightgray;
 }
 header {
-    padding: 30px 40px
-    background-color: brown; 
+    width: 100%;
+    padding: 30px 40px;
+    background-color: grey;
 }
 header h1 {
     font-weight: bolder;
     font-size: 40px;
-    color: black;
+    color: white;
     margin: 0%;
     display: inline;
+}
+header a {
+    text-decoration: none;
+    color: black;
 }
 header nav {
     float: right;
     margin: 5px;
 }
 header nav ul li {
+    font-size: 15px;
+}
+header nav ul li a {
+    margin: 0 30px;
     display: inline-flex;
     font-weight: lighter;
-    font-size: 20px;
+}
+.section-title h3 {
+    color: darkgray;
+    font-size: 32px;
+  }
+footer {
+    background-color: grey;
+    width: 100%;
+    padding: 40px 35px;
 }
