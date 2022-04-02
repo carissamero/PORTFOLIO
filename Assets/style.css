@@ -41,13 +41,13 @@ header nav ul li a {
     color: black;
     font-size: 15px;
 }
-address {
-    margin: 20px 0;
-    line-height: 1;
-    font-size: 12px;
-    text-align: center;
+img {
+    display: flex;
+    justify-content: right;
 }
-
+.bio p {
+    text-align: right;
+}
 .projects h2 {
     font-size: 20px;
     font-style: bold;
@@ -57,6 +57,12 @@ address {
     text-align: center;
 }
 .address {
+    text-align: center;
+}
+address {
+    margin: 20px 0;
+    line-height: 1;
+    font-size: 12px;
     text-align: center;
 }
 footer {
