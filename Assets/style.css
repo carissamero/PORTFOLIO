@@ -2,11 +2,6 @@
     margin: auto;
     padding: 0
 }
-.flex-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-}
 body {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -42,21 +37,13 @@ header nav ul li a {
     display: inline-flex;
     font-weight: lighter;
 }
-.section-title {
-    color: darkslategrey;
-    font-size: 15px;
+img {
+    float: right;
 }
-.Bio img {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    float: left;
-}
-.Bio {
+.Bio, .Projects, .Contact-Info {
     text-align: center;
-    width: 100%;
     background: darkcyan;
-    margin: 100px;
+    margin: 50px;
     overflow: auto;
 }
 .section-title {
@@ -64,16 +51,19 @@ header nav ul li a {
     border-bottom: 3px solid;
     border-color: darkslategrey;
     width: 100%;
-    margin-bottom: 20px;
+    color: darkslategrey;
+    font-size: 15px;
+}
+section {
+    padding: 60px;
+    background-size: cover;
+    background-position: center;
 }
 .address {
-    text-align: center;
-}
-address {
-    margin: 20px 0;
     line-height: 1;
-    font-size: 12px;
+    font-size: 20px;
     text-align: center;
+    background-color: darkcyan;
 }
 footer {
     background-image: url(../Assets/Images/BackGround-Img.webp);
@@ -81,4 +71,5 @@ footer {
     padding: 40px 35px;
     text-align: right;
     border-radius: 15px 50px 30px 5px;
+    margin-top: 50px;
 }
