@@ -3,9 +3,10 @@
     padding: 0
 }
 body {
-    color: black;
+    color: darkslategrey;
     font-family: Arial, Helvetica, sans-serif;
     background-color: whitesmoke;
+    margin: 10px 50px 10px 10px;
 }
 header {
     background-image: url(../Assets/Images/BackGround-Img.webp);
@@ -32,38 +33,50 @@ header nav {
 header nav ul li {
     display: inline;
 }
-header nav ul li a {
+header nav ul li a:hover {
     margin: 0 30px;
     display: inline-flex;
     font-weight: lighter;
 }
 img {
+    width: 15%;
     float: right;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
-.Bio, .Projects, .Contact-Info {
-    text-align: center;
-    background: darkcyan;
-    margin: 50px;
-    overflow: auto;
+.Bio{
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid darkslategray;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
-.section-title {
-    text-align: center;
-    border-bottom: 3px solid;
-    border-color: darkslategrey;
-    width: 100%;
-    color: darkslategrey;
-    font-size: 15px;
+
+.Bio p {
+    font-size: 12px;
+    line-height: 1;
+    margin: 2%;
+}
+.section-title h2 {
+    font-weight: bolder;
 }
 section {
     padding: 60px;
     background-size: cover;
     background-position: center;
 }
-.address {
+address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px;
     line-height: 1;
-    font-size: 20px;
-    text-align: center;
-    background-color: darkcyan;
+    font-size: 15px;
+    text-align: right center;
 }
 footer {
     background-image: url(../Assets/Images/BackGround-Img.webp);
