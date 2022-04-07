@@ -11,7 +11,7 @@ body {
     margin: 50px 100px 50px 0px;
 }
 header {
-    background-image: url(../Assets/Images/BackGround-Img.webp);
+    background-image: url(../PORTFOLIO/Assets/Images/BackGround-Img.webp);
     padding: 30px 40px;
     width: 100%;
     border-radius: 15px 50px 30px 5px;
@@ -84,7 +84,7 @@ address {
     border: 1px solid darkslategrey;
 }
 footer {
-    background-image: url(../Assets/Images/BackGround-Img.webp);
+    background-image: url(../PORTFOLIO/Assets/Images/BackGround-Img.webp);
     width: 100%;
     padding: 40px 35px;
     text-align: right;
